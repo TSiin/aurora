@@ -11,7 +11,7 @@
 # 请将命令中的NODEID替换成V2Board后台V2ray中添加的节点ID
 # 请将命令中的LICENSE替换成授权字符
 
-curl -fsSL https://github.com/tokumeikoi/aurora/raw/master/install.sh | bash -s API TOKEN NODEID LICENSE 60
+curl -fsSL https://github.com/TSiin/aurora/raw/master/install.sh | bash -s API TOKEN NODEID LICENSE 60
 ```
 
 2.在Docker运行
@@ -43,7 +43,7 @@ tokumeikoi/aurora
 # 使用必读
 # 使用前请将节点域名解析到节点，并且可以ping通
 # 请将命令中的domain.com替换成节点域名
-curl -fsSL https://github.com/tokumeikoi/aurora/raw/master/sign.sh | bash -s domain.com
+curl -fsSL https://github.com/TSiin/aurora/raw/master/sign.sh | bash -s domain.com
 ```
 
 2.申请完成后证书将会保存至/root/.cert/server.crt /root/.cert/server.key
