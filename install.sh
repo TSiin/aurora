@@ -18,7 +18,7 @@ rm -rf $folder
 mkdir $folder
 cd $folder
 wget https://github.com/tokumeikoi/aurora/releases/latest/download/aurora
-wget https://github.com/v2fly/v2ray-core/releases/download/v5.0.2/v2ray-linux-64.zip
+wget https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip
 
 unzip v2ray-linux-64.zip
 chmod 755 *
